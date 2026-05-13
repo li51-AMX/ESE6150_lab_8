@@ -1,0 +1,41 @@
+[0.038s] Invoking command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/sim_ws/install/f1tenth_gym_ros:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc -- -j4 -l4
+[0.419s] Built target ament_cmake_python_copy_mpc_setup
+[0.576s] Built target ament_cmake_python_copy_mpc
+[1.333s] running egg_info
+[1.334s] writing mpc.egg-info/PKG-INFO
+[1.361s] writing dependency_links to mpc.egg-info/dependency_links.txt
+[1.362s] writing top-level names to mpc.egg-info/top_level.txt
+[1.366s] reading manifest file 'mpc.egg-info/SOURCES.txt'
+[1.367s] writing manifest file 'mpc.egg-info/SOURCES.txt'
+[1.435s] Built target ament_cmake_python_build_mpc_egg
+[1.490s] Invoked command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/sim_ws/install/f1tenth_gym_ros:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc -- -j4 -l4
+[1.554s] Invoking command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/sim_ws/install/f1tenth_gym_ros:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc
+[1.599s] -- Install configuration: ""
+[1.599s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/pythonpath.sh
+[1.601s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/pythonpath.dsv
+[1.602s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info
+[1.606s] -- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.606s] -- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.606s] -- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info/PKG-INFO
+[1.608s] -- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info/top_level.txt
+[1.610s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc
+[1.610s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc/__init__.py
+[1.749s] Listing '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc'...
+[1.756s] -- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib/mpc/mpc_node.py
+[1.757s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib/mpc/utils.py
+[1.757s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+[1.757s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+[1.757s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/ament_prefix_path.sh
+[1.758s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+[1.762s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/path.sh
+[1.764s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/path.dsv
+[1.764s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/local_setup.bash
+[1.764s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/local_setup.sh
+[1.776s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/local_setup.zsh
+[1.776s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/local_setup.dsv
+[1.776s] -- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.dsv
+[1.777s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/ament_index/resource_index/packages/mpc
+[1.777s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/cmake/mpcConfig.cmake
+[1.777s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+[1.777s] -- Up-to-date: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.xml
+[1.803s] Invoked command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/sim_ws/install/f1tenth_gym_ros:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc

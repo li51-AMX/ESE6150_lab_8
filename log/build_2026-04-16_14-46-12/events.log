@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000864] (mpc) JobQueued: {'identifier': 'mpc', 'dependencies': OrderedDict()}
+[0.001026] (mpc) JobStarted: {'identifier': 'mpc'}
+[0.091470] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'cmake'}
+[0.091766] (-) TimerEvent: {}
+[0.094831] (mpc) Command: {'cmd': ['/usr/bin/cmake', '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/mpc', '-DCMAKE_INSTALL_PREFIX=/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc'], 'cwd': '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avani'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avani'), ('OLDPWD', '/home/avani/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install:/home/avani/roboracer_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avani'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/avani-virtual-machine:@/tmp/.ICE-unix/1257,unix/avani-virtual-machine:/tmp/.ICE-unix/1257'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/254a9eaa_2f68_4ab3_abcf_76acfe1315ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQ3OM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg:/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/lab1_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avani/sim_ws/src/lab-6-motion-planning-team3/install/lab7_pkg:/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[0.192623] (-) TimerEvent: {}
+[0.293933] (-) TimerEvent: {}
+[0.396098] (-) TimerEvent: {}
+[0.497851] (-) TimerEvent: {}
+[0.599454] (-) TimerEvent: {}
+[0.702750] (-) TimerEvent: {}
+[0.804692] (-) TimerEvent: {}
+[0.907943] (-) TimerEvent: {}
+[1.010081] (-) TimerEvent: {}
+[1.112101] (-) TimerEvent: {}
+[1.191143] (mpc) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.212688] (-) TimerEvent: {}
+[1.313789] (-) TimerEvent: {}
+[1.416123] (-) TimerEvent: {}
+[1.519624] (-) TimerEvent: {}
+[1.622667] (-) TimerEvent: {}
+[1.724625] (-) TimerEvent: {}
+[1.826651] (-) TimerEvent: {}
+[1.928933] (-) TimerEvent: {}
+[2.031681] (-) TimerEvent: {}
+[2.133524] (-) TimerEvent: {}
+[2.235040] (-) TimerEvent: {}
+[2.334531] (mpc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.335026] (-) TimerEvent: {}
+[2.436199] (-) TimerEvent: {}
+[2.498234] (mpc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.537754] (-) TimerEvent: {}
+[2.640810] (-) TimerEvent: {}
+[2.742518] (-) TimerEvent: {}
+[2.844856] (-) TimerEvent: {}
+[2.946778] (-) TimerEvent: {}
+[3.048113] (-) TimerEvent: {}
+[3.149497] (-) TimerEvent: {}
+[3.250732] (-) TimerEvent: {}
+[3.351930] (-) TimerEvent: {}
+[3.371685] (mpc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.388702] (mpc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.419599] (mpc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.424460] (mpc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.452622] (-) TimerEvent: {}
+[3.462580] (mpc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.553615] (-) TimerEvent: {}
+[3.655712] (-) TimerEvent: {}
+[3.757909] (-) TimerEvent: {}
+[3.860238] (-) TimerEvent: {}
+[3.962198] (-) TimerEvent: {}
+[4.063615] (-) TimerEvent: {}
+[4.165071] (-) TimerEvent: {}
+[4.266543] (-) TimerEvent: {}
+[4.364061] (mpc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.368031] (-) TimerEvent: {}
+[4.384756] (mpc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.387099] (mpc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.392718] (mpc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.468923] (-) TimerEvent: {}
+[4.554868] (mpc) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.569626] (-) TimerEvent: {}
+[4.672687] (-) TimerEvent: {}
+[4.774660] (-) TimerEvent: {}
+[4.875732] (-) TimerEvent: {}
+[4.978556] (-) TimerEvent: {}
+[5.082779] (-) TimerEvent: {}
+[5.184077] (-) TimerEvent: {}
+[5.285520] (-) TimerEvent: {}
+[5.386575] (-) TimerEvent: {}
+[5.487873] (-) TimerEvent: {}
+[5.589723] (-) TimerEvent: {}
+[5.691864] (-) TimerEvent: {}
+[5.712829] (mpc) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.792588] (-) TimerEvent: {}
+[5.898840] (-) TimerEvent: {}
+[6.000069] (-) TimerEvent: {}
+[6.101613] (-) TimerEvent: {}
+[6.203820] (-) TimerEvent: {}
+[6.305931] (-) TimerEvent: {}
+[6.410820] (-) TimerEvent: {}
+[6.512175] (-) TimerEvent: {}
+[6.613761] (-) TimerEvent: {}
+[6.699607] (mpc) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.714549] (-) TimerEvent: {}
+[6.815711] (-) TimerEvent: {}
+[6.917717] (-) TimerEvent: {}
+[7.020648] (-) TimerEvent: {}
+[7.125884] (-) TimerEvent: {}
+[7.199560] (mpc) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.226755] (-) TimerEvent: {}
+[7.280462] (mpc) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.327550] (-) TimerEvent: {}
+[7.389499] (mpc) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.428743] (-) TimerEvent: {}
+[7.530563] (-) TimerEvent: {}
+[7.578492] (mpc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.631092] (-) TimerEvent: {}
+[7.732886] (-) TimerEvent: {}
+[7.777579] (mpc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.833843] (-) TimerEvent: {}
+[7.935655] (-) TimerEvent: {}
+[8.036738] (-) TimerEvent: {}
+[8.138172] (-) TimerEvent: {}
+[8.240153] (-) TimerEvent: {}
+[8.342071] (-) TimerEvent: {}
+[8.348217] (mpc) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.384913] (mpc) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.443080] (-) TimerEvent: {}
+[8.544544] (-) TimerEvent: {}
+[8.645658] (-) TimerEvent: {}
+[8.747584] (-) TimerEvent: {}
+[8.849625] (-) TimerEvent: {}
+[8.951565] (-) TimerEvent: {}
+[9.052688] (-) TimerEvent: {}
+[9.153737] (-) TimerEvent: {}
+[9.255509] (-) TimerEvent: {}
+[9.356893] (-) TimerEvent: {}
+[9.373988] (mpc) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.457695] (-) TimerEvent: {}
+[9.559843] (-) TimerEvent: {}
+[9.596202] (mpc) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.660771] (-) TimerEvent: {}
+[9.762655] (-) TimerEvent: {}
+[9.864698] (-) TimerEvent: {}
+[9.879996] (mpc) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.965811] (-) TimerEvent: {}
+[10.056638] (mpc) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.067809] (-) TimerEvent: {}
+[10.170833] (-) TimerEvent: {}
+[10.272591] (-) TimerEvent: {}
+[10.375723] (-) TimerEvent: {}
+[10.478178] (-) TimerEvent: {}
+[10.579684] (-) TimerEvent: {}
+[10.681205] (-) TimerEvent: {}
+[10.782632] (-) TimerEvent: {}
+[10.884658] (mpc) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.885119] (-) TimerEvent: {}
+[10.888960] (mpc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.986019] (-) TimerEvent: {}
+[11.087520] (-) TimerEvent: {}
+[11.188809] (-) TimerEvent: {}
+[11.292682] (-) TimerEvent: {}
+[11.393754] (-) TimerEvent: {}
+[11.497741] (-) TimerEvent: {}
+[11.598883] (-) TimerEvent: {}
+[11.605492] (mpc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.616964] (mpc) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.699949] (-) TimerEvent: {}
+[11.801551] (-) TimerEvent: {}
+[11.902743] (-) TimerEvent: {}
+[12.004649] (-) TimerEvent: {}
+[12.106078] (mpc) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[12.106936] (-) TimerEvent: {}
+[12.129666] (mpc) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[12.207610] (-) TimerEvent: {}
+[12.256121] (mpc) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[12.308631] (-) TimerEvent: {}
+[12.401430] (mpc) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[12.409112] (-) TimerEvent: {}
+[12.512090] (-) TimerEvent: {}
+[12.516941] (mpc) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.612723] (-) TimerEvent: {}
+[12.631093] (mpc) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[12.713222] (-) TimerEvent: {}
+[12.814843] (-) TimerEvent: {}
+[12.842915] (mpc) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[12.915694] (-) TimerEvent: {}
+[12.943112] (mpc) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[13.016657] (-) TimerEvent: {}
+[13.118069] (-) TimerEvent: {}
+[13.219670] (-) TimerEvent: {}
+[13.321009] (-) TimerEvent: {}
+[13.422635] (-) TimerEvent: {}
+[13.524106] (-) TimerEvent: {}
+[13.626574] (-) TimerEvent: {}
+[13.727629] (-) TimerEvent: {}
+[13.796085] (mpc) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (find_package):\n'}
+[13.796920] (mpc) StderrLine: {'line': b'  By not providing "FindOsqpEigen.cmake" in CMAKE_MODULE_PATH this project\n'}
+[13.797634] (mpc) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[13.798151] (mpc) StderrLine: {'line': b'  "OsqpEigen", but CMake did not find one.\n'}
+[13.798727] (mpc) StderrLine: {'line': b'\n'}
+[13.799777] (mpc) StderrLine: {'line': b'  Could not find a package configuration file provided by "OsqpEigen" with\n'}
+[13.800466] (mpc) StderrLine: {'line': b'  any of the following names:\n'}
+[13.800941] (mpc) StderrLine: {'line': b'\n'}
+[13.801474] (mpc) StderrLine: {'line': b'    OsqpEigenConfig.cmake\n'}
+[13.801937] (mpc) StderrLine: {'line': b'    osqpeigen-config.cmake\n'}
+[13.802520] (mpc) StderrLine: {'line': b'\n'}
+[13.802941] (mpc) StderrLine: {'line': b'  Add the installation prefix of "OsqpEigen" to CMAKE_PREFIX_PATH or set\n'}
+[13.803464] (mpc) StderrLine: {'line': b'  "OsqpEigen_DIR" to a directory containing one of the above files.  If\n'}
+[13.803863] (mpc) StderrLine: {'line': b'  "OsqpEigen" provides a separate development package or SDK, be sure it has\n'}
+[13.804213] (mpc) StderrLine: {'line': b'  been installed.\n'}
+[13.804699] (mpc) StderrLine: {'line': b'\n'}
+[13.805170] (mpc) StderrLine: {'line': b'\x1b[0m\n'}
+[13.805718] (mpc) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[13.806211] (mpc) StdoutLine: {'line': b'See also "/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/CMakeOutput.log".\n'}
+[13.828159] (-) TimerEvent: {}
+[13.854196] (mpc) CommandEnded: {'returncode': 1}
+[13.928780] (-) TimerEvent: {}
+[14.033113] (-) TimerEvent: {}
+[14.076605] (mpc) JobEnded: {'identifier': 'mpc', 'rc': 1}
+[14.089055] (-) EventReactorShutdown: {}

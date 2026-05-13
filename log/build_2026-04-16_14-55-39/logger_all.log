@@ -1,0 +1,129 @@
+[0.946s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.946s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b475b3215a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b475b320fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b475b320fd0>>, mixin_verb=('build',))
+[3.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1'
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.339s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.343s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extensions ['ignore', 'ignore_ament_install']
+[3.343s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extension 'ignore'
+[3.343s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extension 'ignore_ament_install'
+[3.344s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extensions ['colcon_pkg']
+[3.344s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extension 'colcon_pkg'
+[3.344s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extensions ['colcon_meta']
+[3.344s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extension 'colcon_meta'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extensions ['ros']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(mpc) by extension 'ros'
+[3.362s] DEBUG:colcon.colcon_core.package_identification:Package 'mpc' with type 'ros.ament_cmake' and name 'mpc'
+[3.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.591s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/avani/roboracer_ws/install
+[3.612s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/humble
+[3.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.225s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_args' from command line to 'None'
+[4.225s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_target' from command line to 'None'
+[4.225s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.225s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_clean_cache' from command line to 'False'
+[4.225s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_clean_first' from command line to 'False'
+[4.226s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_force_configure' from command line to 'False'
+[4.226s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'ament_cmake_args' from command line to 'None'
+[4.226s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'catkin_cmake_args' from command line to 'None'
+[4.226s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.226s] DEBUG:colcon.colcon_core.verb:Building package 'mpc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc', 'merge_install': False, 'path': '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/mpc', 'symlink_install': False, 'test_result_base': None}
+[4.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/mpc' with build type 'ament_cmake'
+[4.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/mpc'
+[4.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/mpc -DCMAKE_INSTALL_PREFIX=/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc
+[9.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/mpc -DCMAKE_INSTALL_PREFIX=/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc
+[9.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc -- -j4 -l4
+[11.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc -- -j4 -l4
+[11.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc
+[11.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc)
+[11.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc
+[12.032s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc' for CMake module files
+[12.036s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc' for CMake config files
+[12.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'cmake_prefix_path')
+[12.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/hook/cmake_prefix_path.ps1'
+[12.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/hook/cmake_prefix_path.dsv'
+[12.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/hook/cmake_prefix_path.sh'
+[12.053s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib'
+[12.054s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/bin'
+[12.054s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib/pkgconfig/mpc.pc'
+[12.055s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib/python3.10/site-packages'
+[12.056s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/bin'
+[12.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.ps1'
+[12.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.dsv'
+[12.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.sh'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.bash'
+[12.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.zsh'
+[12.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/colcon-core/packages/mpc)
+[12.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc)
+[12.087s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc' for CMake module files
+[12.090s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc' for CMake config files
+[12.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'cmake_prefix_path')
+[12.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/hook/cmake_prefix_path.ps1'
+[12.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/hook/cmake_prefix_path.dsv'
+[12.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/hook/cmake_prefix_path.sh'
+[12.103s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib'
+[12.103s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/bin'
+[12.104s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib/pkgconfig/mpc.pc'
+[12.104s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib/python3.10/site-packages'
+[12.105s] Level 1:colcon.colcon_core.environment:checking '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/bin'
+[12.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.ps1'
+[12.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.dsv'
+[12.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.sh'
+[12.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.bash'
+[12.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.zsh'
+[12.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/colcon-core/packages/mpc)
+[12.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.124s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.127s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.181s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.258s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/local_setup.ps1'
+[12.265s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/_local_setup_util_ps1.py'
+[12.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/setup.ps1'
+[12.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/local_setup.sh'
+[12.289s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/_local_setup_util_sh.py'
+[12.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/setup.sh'
+[12.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/local_setup.bash'
+[12.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/setup.bash'
+[12.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/local_setup.zsh'
+[12.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/setup.zsh'

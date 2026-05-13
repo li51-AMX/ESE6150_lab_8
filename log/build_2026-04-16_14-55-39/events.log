@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.003531] (mpc) JobQueued: {'identifier': 'mpc', 'dependencies': OrderedDict()}
+[0.003709] (mpc) JobStarted: {'identifier': 'mpc'}
+[0.099046] (-) TimerEvent: {}
+[0.100748] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'cmake'}
+[0.117764] (mpc) Command: {'cmd': ['/usr/bin/cmake', '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/mpc', '-DCMAKE_INSTALL_PREFIX=/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc'], 'cwd': '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avani'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avani'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avani/roboracer_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avani'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/avani-virtual-machine:@/tmp/.ICE-unix/1257,unix/avani-virtual-machine:/tmp/.ICE-unix/1257'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a5641d6_060b_4c2d_ba77_c97344a3dd72'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQ3OM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avani/roboracer_ws/install/lab1_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[0.200488] (-) TimerEvent: {}
+[0.248928] (mpc) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.303674] (-) TimerEvent: {}
+[0.405549] (-) TimerEvent: {}
+[0.507379] (-) TimerEvent: {}
+[0.610368] (-) TimerEvent: {}
+[0.715532] (-) TimerEvent: {}
+[0.817246] (-) TimerEvent: {}
+[0.918501] (-) TimerEvent: {}
+[1.022620] (-) TimerEvent: {}
+[1.103851] (mpc) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.123401] (-) TimerEvent: {}
+[1.226010] (-) TimerEvent: {}
+[1.327558] (-) TimerEvent: {}
+[1.388349] (mpc) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.418471] (mpc) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.428061] (-) TimerEvent: {}
+[1.482863] (mpc) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.528605] (-) TimerEvent: {}
+[1.580991] (mpc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.629303] (-) TimerEvent: {}
+[1.699850] (mpc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.730415] (-) TimerEvent: {}
+[1.833425] (-) TimerEvent: {}
+[1.936080] (-) TimerEvent: {}
+[1.990615] (mpc) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.008281] (mpc) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.036598] (-) TimerEvent: {}
+[2.137942] (-) TimerEvent: {}
+[2.239358] (-) TimerEvent: {}
+[2.344064] (-) TimerEvent: {}
+[2.445755] (-) TimerEvent: {}
+[2.548960] (-) TimerEvent: {}
+[2.632751] (mpc) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.649945] (-) TimerEvent: {}
+[2.752704] (-) TimerEvent: {}
+[2.854973] (-) TimerEvent: {}
+[2.941640] (mpc) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.944803] (mpc) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.955540] (-) TimerEvent: {}
+[3.020366] (mpc) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.056029] (-) TimerEvent: {}
+[3.102528] (mpc) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[3.156693] (-) TimerEvent: {}
+[3.172597] (mpc) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.251856] (mpc) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.257743] (-) TimerEvent: {}
+[3.351515] (mpc) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.358694] (-) TimerEvent: {}
+[3.383369] (mpc) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.459335] (-) TimerEvent: {}
+[3.561385] (-) TimerEvent: {}
+[3.669335] (-) TimerEvent: {}
+[3.770418] (-) TimerEvent: {}
+[3.873656] (-) TimerEvent: {}
+[3.975002] (-) TimerEvent: {}
+[4.078797] (-) TimerEvent: {}
+[4.176833] (mpc) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.179802] (-) TimerEvent: {}
+[4.281061] (-) TimerEvent: {}
+[4.383812] (-) TimerEvent: {}
+[4.487031] (-) TimerEvent: {}
+[4.556630] (mpc) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.578352] (mpc) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.580797] (mpc) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/mpc/include\n'}
+[4.581738] (mpc) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.587536] (-) TimerEvent: {}
+[4.600966] (mpc) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.602034] (mpc) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.605523] (mpc) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.612251] (mpc) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.614955] (mpc) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.635423] (mpc) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.637983] (mpc) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.641009] (mpc) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.647527] (mpc) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.688050] (-) TimerEvent: {}
+[4.736013] (mpc) StdoutLine: {'line': b'-- Generating done\n'}
+[4.786073] (mpc) StdoutLine: {'line': b'-- Build files have been written to: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc\n'}
+[4.788669] (-) TimerEvent: {}
+[4.845836] (mpc) CommandEnded: {'returncode': 0}
+[4.856659] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'build'}
+[4.857011] (mpc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc', '--', '-j4', '-l4'], 'cwd': '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avani'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avani'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avani/roboracer_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avani'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/avani-virtual-machine:@/tmp/.ICE-unix/1257,unix/avani-virtual-machine:/tmp/.ICE-unix/1257'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a5641d6_060b_4c2d_ba77_c97344a3dd72'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQ3OM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avani/roboracer_ws/install/lab1_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[4.889980] (-) TimerEvent: {}
+[4.992442] (-) TimerEvent: {}
+[5.093775] (-) TimerEvent: {}
+[5.197566] (-) TimerEvent: {}
+[5.301573] (-) TimerEvent: {}
+[5.404408] (-) TimerEvent: {}
+[5.500953] (mpc) StdoutLine: {'line': b'Built target ament_cmake_python_copy_mpc_setup\n'}
+[5.502637] (mpc) StdoutLine: {'line': b'Built target ament_cmake_python_copy_mpc\n'}
+[5.505374] (-) TimerEvent: {}
+[5.606707] (-) TimerEvent: {}
+[5.709978] (-) TimerEvent: {}
+[5.811391] (-) TimerEvent: {}
+[5.912414] (-) TimerEvent: {}
+[6.013514] (-) TimerEvent: {}
+[6.115796] (-) TimerEvent: {}
+[6.218496] (-) TimerEvent: {}
+[6.321442] (-) TimerEvent: {}
+[6.422431] (-) TimerEvent: {}
+[6.524272] (-) TimerEvent: {}
+[6.626265] (-) TimerEvent: {}
+[6.728461] (-) TimerEvent: {}
+[6.831490] (-) TimerEvent: {}
+[6.932955] (-) TimerEvent: {}
+[7.036615] (-) TimerEvent: {}
+[7.058219] (mpc) StdoutLine: {'line': b'running egg_info\n'}
+[7.060356] (mpc) StdoutLine: {'line': b'creating mpc.egg-info\n'}
+[7.064037] (mpc) StdoutLine: {'line': b'writing mpc.egg-info/PKG-INFO\n'}
+[7.069475] (mpc) StdoutLine: {'line': b'writing dependency_links to mpc.egg-info/dependency_links.txt\n'}
+[7.069959] (mpc) StdoutLine: {'line': b'writing top-level names to mpc.egg-info/top_level.txt\n'}
+[7.074442] (mpc) StdoutLine: {'line': b"writing manifest file 'mpc.egg-info/SOURCES.txt'\n"}
+[7.093078] (mpc) StdoutLine: {'line': b"reading manifest file 'mpc.egg-info/SOURCES.txt'\n"}
+[7.094749] (mpc) StdoutLine: {'line': b"writing manifest file 'mpc.egg-info/SOURCES.txt'\n"}
+[7.137067] (-) TimerEvent: {}
+[7.214853] (mpc) StdoutLine: {'line': b'Built target ament_cmake_python_build_mpc_egg\n'}
+[7.238912] (-) TimerEvent: {}
+[7.318686] (mpc) CommandEnded: {'returncode': 0}
+[7.327050] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'install'}
+[7.339669] (-) TimerEvent: {}
+[7.408295] (mpc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc'], 'cwd': '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avani'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avani'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avani/roboracer_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avani'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/avani-virtual-machine:@/tmp/.ICE-unix/1257,unix/avani-virtual-machine:/tmp/.ICE-unix/1257'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a5641d6_060b_4c2d_ba77_c97344a3dd72'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQ3OM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avani/roboracer_ws/install/lab1_pkg/local/lib/python3.10/dist-packages:/home/avani/roboracer_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avani/roboracer_ws/install/lab1_pkg:/home/avani/roboracer_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[7.440492] (-) TimerEvent: {}
+[7.483979] (mpc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.488644] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/pythonpath.sh\n'}
+[7.489427] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/pythonpath.dsv\n'}
+[7.492972] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info\n'}
+[7.494390] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.495377] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.495801] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.496399] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.498911] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc\n'}
+[7.500031] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc/__init__.py\n'}
+[7.540875] (-) TimerEvent: {}
+[7.643651] (-) TimerEvent: {}
+[7.700038] (mpc) StdoutLine: {'line': b"Listing '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc'...\n"}
+[7.702319] (mpc) StdoutLine: {'line': b"Compiling '/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/local/lib/python3.10/dist-packages/mpc/__init__.py'...\n"}
+[7.711670] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib/mpc/mpc_node.py\n'}
+[7.714676] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/lib/mpc/utils.py\n'}
+[7.717659] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc\n'}
+[7.720469] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc\n'}
+[7.723919] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/ament_prefix_path.sh\n'}
+[7.724764] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/ament_prefix_path.dsv\n'}
+[7.728805] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/path.sh\n'}
+[7.730860] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/environment/path.dsv\n'}
+[7.732766] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/local_setup.bash\n'}
+[7.733967] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/local_setup.sh\n'}
+[7.735509] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/local_setup.zsh\n'}
+[7.737232] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/local_setup.dsv\n'}
+[7.738764] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.dsv\n'}
+[7.742055] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/ament_index/resource_index/packages/mpc\n'}
+[7.744631] (-) TimerEvent: {}
+[7.745749] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/cmake/mpcConfig.cmake\n'}
+[7.749894] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/cmake/mpcConfig-version.cmake\n'}
+[7.751319] (mpc) StdoutLine: {'line': b'-- Installing: /home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/install/mpc/share/mpc/package.xml\n'}
+[7.764455] (mpc) CommandEnded: {'returncode': 0}
+[7.847235] (-) TimerEvent: {}
+[7.893512] (mpc) JobEnded: {'identifier': 'mpc', 'rc': 0}
+[7.898798] (-) EventReactorShutdown: {}
