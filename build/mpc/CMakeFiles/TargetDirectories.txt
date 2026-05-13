@@ -1,0 +1,12 @@
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/uninstall.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/mpc_uninstall.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/ament_cmake_python_copy_mpc.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/ament_cmake_python_copy_mpc_setup.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/ament_cmake_python_build_mpc_egg.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/test.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/edit_cache.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/rebuild_cache.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/list_install_components.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/install.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/install/local.dir
+/home/avani/sim_ws/src/lab-8-model-predictive-control-team3-1/build/mpc/CMakeFiles/install/strip.dir
